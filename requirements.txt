@@ -1,0 +1,8 @@
+SpeechRecognition
+pyaudio
+google-generativeai
+keyboard
+pyperclip
+customtkinter
+python-dotenv
+Pillow

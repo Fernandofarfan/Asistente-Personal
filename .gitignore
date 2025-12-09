@@ -1,0 +1,20 @@
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Logs
+*.log
+session_*.txt
+error_log.txt
+
+# VS Code
+.vscode/
