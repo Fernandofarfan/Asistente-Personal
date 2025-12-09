@@ -1,72 +1,71 @@
-# 🕵️‍♂️ Interview Assistant (AI Powered)
+# 🕵️‍♂️ Asistente de Entrevistas (Con IA)
 
-![Status](https://img.shields.io/badge/Status-Operational-green) ![Python](https://img.shields.io/badge/Python-3.x-blue) ![AI](https://img.shields.io/badge/Powered%20by-Gemini-orange)
+![Estado](https://img.shields.io/badge/Estado-Operativo-green) ![Python](https://img.shields.io/badge/Python-3.x-blue) ![IA](https://img.shields.io/badge/Powered%20by-Gemini-orange)
 
-An **advanced, stealthy AI assistant** designed to help you ace technical interviews in real-time. It listens to audio, captures screen regions, and provides instant, concise answers using Google's Gemini Flash model.
+Un **asistente de IA avanzado y discreto** diseñado para ayudarte a superar entrevistas técnicas en tiempo real. Escucha preguntas de audio, captura regiones de la pantalla y proporciona respuestas instantáneas y concisas utilizando el modelo Gemini Flash de Google.
 
-## ✨ Features
+## ✨ Características
 
-- **🎙️ Real-Time Transcription**: Listens to interview questions via microphone.
-- **👁️ Vision Mode (Snapshot)**: Capture coding problems or diagrams from your screen for instant analysis.
-- **👻 Ninja Mode**: Adjustable window transparency (Opacity Slider) to stay discreet.
-- **🚨 Panic Button (F9)**: Instantly hide the entire application in case of emergency.
-- **📝 Rich Code View**: Answers displayed in a scrollable, dark-mode code editor with syntax highlighting font.
-- **🧠 Refinement**: Buttons to **Summarize (➖)** or **Expand (➕)** the AI's answer on the fly.
-- **💾 Auto-Logging**: Automatically saves your interview Q&A session to a text file for post-interview review.
-- **⌨️ Stealth Chat**: Silent text input mode for when you can't speak.
+- **🎙️ Transcripción en Tiempo Real**: Escucha las preguntas de la entrevista a través del micrófono.
+- **👁️ Modo Visión (Captura)**: Captura problemas de código o diagramas de tu pantalla para un análisis instantáneo.
+- **👻 Modo Ninja**: Transparencia de ventana ajustable (Control Deslizante) para mantener la discreción.
+- **🚨 Botón de Pánico (F9)**: Oculta instantáneamente toda la aplicación en caso de emergencia.
+- **📝 Vista de Código Enriquecida**: Respuestas mostradas en un editor de código en modo oscuro con desplazamiento y fuente monoespaciada.
+- **🧠 Refinamiento**: Botones para **Resumir (➖)** o **Expandir (➕)** la respuesta de la IA sobre la marcha.
+- **💾 Registro Automático**: Guarda automáticamente tu sesión de preguntas y respuestas en un archivo de texto para repasar después.
+- **⌨️ Chat Sigiloso**: Modo de entrada de texto silencioso para cuando no puedes hablar.
 
-## 🚀 Installation
+## 🚀 Instalación
 
-1.  **Clone the repository**:
+1.  **Clonar el repositorio**:
     ```bash
-    git clone https://github.com/yourusername/interview-assistant.git
-    cd interview-assistant
+    git clone https://github.com/tuusuario/asistente-personal.git
+    cd asistente-personal
     ```
 
-2.  **Install dependencies**:
+2.  **Instalar dependencias**:
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Setup API Key**:
-    - Create a `.env` file in the root directory.
-    - Add your Google Gemini API key:
+3.  **Configurar API Key**:
+    - Crea un archivo `.env` en el directorio raíz.
+    - Añade tu clave API de Google Gemini:
       ```env
-      GOOGLE_API_KEY=your_api_key_here
+      GOOGLE_API_KEY=tu_clave_api_aqui
       ```
 
-## 🛠️ Usage
+## 🛠️ Uso
 
-### Running form Source
+### Ejecutar desde Código Fuente
 ```bash
 python main.py
 ```
 
-### Running the Executable (Windows)
-If you built the executable:
-1.  Go to the `dist` folder.
-2.  Ensure `.env` is present next to the `.exe`.
-3.  Run `InterviewAssistant.exe`.
+### Ejecutar el Ejecutable (Windows)
+Si has construido el ejecutable:
+1.  Ve a la carpeta `dist`.
+2.  Asegúrate de que el archivo `.env` esté presente junto al `.exe`.
+3.  Ejecuta `InterviewAssistant.exe`.
 
-### Controls
-| Key/Button | Action |
-|Data|Description|
+### Controles
+| Tecla/Botón | Acción |
 |---|---|
-| **F8** | Toggle Listening (Pause/Resume) |
-| **F9** | **Panic Mode** (Hide/Show Window) |
-| **📸** | Take Screen Snapshot |
-| **⌨️** | Toggle Chat Input |
-| **Slider** | Adjust Transparency |
+| **F8** | Alternar Escucha (Pausar/Reanudar) |
+| **F9** | **Modo Pánico** (Ocultar/Mostrar Ventana) |
+| **📸** | Tomar Captura de Pantalla |
+| **⌨️** | Alternar Chat de Texto |
+| **Slider** | Ajustar Transparencia |
 
-## 📦 Build Standalone .exe
-To create a portable executable yourself:
+## 📦 Crear Ejecutable Portátil (.exe)
+Para crear el ejecutable tú mismo:
 ```bash
 python build.py
 ```
-*Artifacts will be in `dist/` folder.*
+*Los artefactos estarán en la carpeta `dist/`.*
 
-## ⚠️ Disclaimer
-This tool is intended for educational purposes and interview preparation assistance. Use responsibly and ethically.
+## ⚠️ Aviso Legal
+Esta herramienta está destinada a fines educativos y de ayuda en la preparación de entrevistas. Úsala de manera responsable y ética.
 
 ---
-*Built with Python, CustomTkinter, and Google Gemini.*
+*Construido con Python, CustomTkinter y Google Gemini.*
